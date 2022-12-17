@@ -1,0 +1,76 @@
+{
+  "Exercises": [{
+      "image": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/adductors.jpg",
+      "workOutPlan": "Adductors",
+      "valorMensual": 46000,
+      "ClasesSemanales": 3
+    },
+    {
+      "image": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/biceps_0.jpg",
+      "workOutPlan": "Biceps",
+      "valorMensual": 66000,
+      "ClasesSemanales": 4
+    },
+    {
+      "image": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/calves_0.jpg",
+      "workOutPlan": "Calves",
+      "valorMensual": 66000,
+      "ClasesSemanales": 5
+    },
+    {
+      "image": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/chest_0.jpg",
+      "workOutPlan": "Chest",
+      "valorMensual": 66000,
+      "ClasesSemanales": 6
+    },
+    {
+      "image": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/forearms_0.jpg",
+      "workOutPlan": "Forearms",
+      "valorMensual": 66000,
+      "ClasesSemanales": 7
+    },
+    {
+      "image": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/glutes_0.jpg",
+      "workOutPlan": "Glutes",
+      "valorMensual": 66000,
+      "ClasesSemanales": 8
+    }
+  ],
+  "CardsPlanes": [{
+      "imagen": "https://www.hola.com/imagenes/estar-bien/20210224184941/crossfit-bootcamp-diferencias-entrenamiento/0-922-979/crossfit-2t-t.jpg",
+      "nombrePlan": "3 x Semana $46.000",
+      "valorMensual": 46000,
+      "ClasesSemanales": 3
+    },
+    {
+      "imagen": "https://www.crossfit.com/wp-content/uploads/2020/10/19092755/2018072814475780_ND_ND5_6593-1-copy-1024x576.jpg",
+      "nombrePlan": "4x Semana $66.000",
+      "valorMensual": 66000,
+      "ClasesSemanales": 4
+    },
+    {
+      "imagen": "https://baloncentral.files.wordpress.com/2020/01/funiber-crossfit.jpg?w=640",
+      "nombrePlan": "5 x Semana $86.000",
+      "valorMensual": 66000,
+      "ClasesSemanales": 5
+    },
+    {
+      "imagen": "https://baloncentral.files.wordpress.com/2020/01/funiber-crossfit.jpg?w=640",
+      "nombrePlan": "6 x Semana $86.000",
+      "valorMensual": 66000,
+      "ClasesSemanales": 6
+    },
+    {
+      "imagen": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abductors.jpg",
+      "nombrePlan": "7 x Semana $86.000",
+      "valorMensual": 66000,
+      "ClasesSemanales": 7
+    },
+    {
+      "imagen": "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abs_0.jpg",
+      "nombrePlan": "8 x Semana $86.000",
+      "valorMensual": 66000,
+      "ClasesSemanales": 8
+    }
+  ]
+}
