@@ -51,9 +51,12 @@
               </div>
             </div>
 
-            <button @click="login" class="btn-logg cl-lo">Login</button>
-            <button class="ms-2 cl-lo bt-limp">Clear</button>
-            <button class="ms-2 cl-lo ">
+            <div>
+
+              <button @click="login" class="btn-logg cl-lo">Login</button>
+              <button class="ms-2 cl-lo bt-limp">Sing Up</button>
+            </div>
+            <button class="btn-logg cl-lo my-4">
               Login with Google
             </button>
           </div>
@@ -155,12 +158,13 @@ label {
 }
 
 .bt-limp {
-  background: #e0f0ff;
+  background: #25a547;
   color: #282828;
   padding: 15px;
   color: #fff;
   width: 100%;
   margin: 0 auto;
+  padding-right: 30px;
   border: none;
   font-weight: bold;
   text-transform: uppercase;
