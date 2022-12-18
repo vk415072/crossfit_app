@@ -11,11 +11,11 @@
     "hosting": "firebase deploy --only hosting"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "bootstrap": "^5.0.1",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.2.3",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "firebase": "^8.6.8",
+    "firebase": "^8.10.1",
     "firebase-admin": "^9.9.0",
     "sjcl": "1.0.8",
     "vue": "^2.6.13",
