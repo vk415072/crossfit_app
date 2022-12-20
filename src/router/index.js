@@ -24,6 +24,15 @@ const routes = [
       import( "../views/Exercises.vue"),
   },
   {
+    path: "/videos",
+    name: "Videos",
+    meta: {
+      login: false,
+    },
+    component: () =>
+      import( "../views/Videos.vue"),
+  },
+  {
     path: "/nutrition",
     name: "Nutrition",
     meta: {
