@@ -15,6 +15,15 @@
         </header>
         <div>
             <b-card-group>
+                <b-card title="Abs" class="exercise-card" align="center"
+                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abs_0.jpg"
+                    img-alt="Image" img-top><a href="/videos" class="stretched-link"></a>
+                    <!-- <b-card-text>
+                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        This card has even longer content than the first to show that equal height action.
+                                    </b-card-text> -->
+
+                </b-card>
                 <b-card title="Adductors" class="exercise-card" align="center" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                     img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/adductors.jpg"
@@ -32,15 +41,6 @@
 
                 </b-card>
 
-                <b-card title="Abs" class="exercise-card" align="center"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abs_0.jpg"
-                    img-alt="Image" img-top>
-                    <!-- <b-card-text>
-                        This is a wider card with supporting text below as a natural lead-in to additional content.
-                        This card has even longer content than the first to show that equal height action.
-                    </b-card-text> -->
-
-                </b-card>
                 <b-card title="Abductors" class="exercise-card" align="center"
                     img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abductors.jpg"
                     img-alt="Image" img-top>

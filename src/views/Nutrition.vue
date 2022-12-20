@@ -6,98 +6,85 @@
                     <b-col cols="12">
                         <div class="site-heading">
                             <h1 class="text-white text-uppercase fst-italic">
-                                <span>Exercises</span>
+                                <span>DIET GUIDES</span>
                             </h1>
                         </div>
                     </b-col>
                 </b-row>
             </b-container>
         </header>
+
+        <h3 align="center" class="paragraph-text">
+            Confused about what diet you should follow? Our guides explain the different approaches to nutrition in
+            detail. <br>
+            Read these guides and choose a diet style that best suits your goals, food preferences and lifestyle.
+        </h3>
         <div>
             <b-card-group>
-                <b-card title="Title" class="exercise-card"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/adductors.jpg"
+                <b-card title="The Clean Eating Diet Plan Guide" class="exercise-card"
+                    img-src="https://cdn.muscleandstrength.com/sites/default/files/clean-eating-guide-feature.jpg"
                     img-alt="Image" img-top>
                     <b-card-text>
-                        This is a wider card with supporting text below as a natural lead-in to additional content.
-                        This content is a little bit longer.
+                        Learn everything you need to know before starting the Clean Eating Diet plan including it's
+                        history, guidelines &
+                        components, & all of the science behind it.
                     </b-card-text>
-                    <b-button align="center" href="#" variant="primary">Go somewhere</b-button>
+                    <!-- <b-button align="center" href="#" variant="primary">Go somewhere</b-button> -->
                 </b-card>
-
-                <b-card title="Title" class="exercise-card"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/biceps_0.jpg"
-                    img-alt="Image" img-top>
+                <b-card title="The IIFYM & Flexible Dieting Diet Plan Guide" class="exercise-card"
+                    img-src="https://cdn.muscleandstrength.com/sites/default/files/iifym-feature.jpg" img-alt="Image"
+                    img-top>
                     <b-card-text>
-                        This card has supporting text below as a natural lead-in to additional content.
+                        Learn everything you need to know before starting the IIFYM Diet plan including it's history,
+                        guidelines and components,
+                        and all of the science behind it.
                     </b-card-text>
-
+                    <!-- <b-button align="center" href="#" variant="primary">Go somewhere</b-button> -->
                 </b-card>
-
-                <b-card title="Title" class="exercise-card"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/calves_0.jpg"
-                    img-alt="Image" img-top>
+                <b-card title="The Ketogenic & Low Carb Diet Plan Guide" class="exercise-card"
+                    img-src="https://cdn.muscleandstrength.com/sites/default/files/keto-feature_0.jpg" img-alt="Image"
+                    img-top>
                     <b-card-text>
-                        This is a wider card with supporting text below as a natural lead-in to additional content.
-                        This card has even longer content than the first to show that equal height action.
+                        Learn everything you need to know before starting the Keto Diet plan including it's history,
+                        guidelines and components,
+                        and all of the science behind it.
                     </b-card-text>
-
+                    <!-- <b-button align="center" href="#" variant="primary">Go somewhere</b-button> -->
                 </b-card>
-                <b-card title="Title" class="exercise-card"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/adductors.jpg"
-                    img-alt="Image" img-top>
-                    <b-card-text>
-                        This is a wider card with supporting text below as a natural lead-in to additional content.
-                        This content is a little bit longer.
-                    </b-card-text>
 
-                </b-card>
             </b-card-group>
             <b-card-group>
-                <b-card title="Title" class="exercise-card"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/adductors.jpg"
+                <b-card title="The Intermittent Fasting Diet Plan Guide" class="exercise-card"
+                    img-src="https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/article/intermittent-fasting-feature.jpg"
                     img-alt="Image" img-top>
                     <b-card-text>
-                        This is a wider card with supporting text below as a natural lead-in to additional content.
-                        This content is a little bit longer.
+                        Learn everything you need to know before starting the Intermittent Fasting plan including it's
+                        history, guidelines &
+                        components, & all the science behind it.
                     </b-card-text>
-
                 </b-card>
 
-                <b-card title="Title" class="exercise-card"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/biceps_0.jpg"
+                <b-card title="The Carb Cycling Diet Plan Guide" class="exercise-card"
+                    img-src="https://cdn.muscleandstrength.com/sites/default/files/carb-cycling-feature.jpg"
                     img-alt="Image" img-top>
                     <b-card-text>
-                        This card has supporting text below as a natural lead-in to additional content.
+                        Learn everything you need to know before starting the Carb Cycling Diet plan including it's
+                        history, guidelines &
+                        components, & all the science behind it.
                     </b-card-text>
-
                 </b-card>
 
-                <b-card title="Title" class="exercise-card"
-                    img-src="https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/calves_0.jpg"
-                    img-alt="Image" img-top>
+                <b-card title="The Paleolithic (Paleo) Diet Plan Guide" class="exercise-card"
+                    img-src="https://cdn.muscleandstrength.com/sites/default/files/paleo-feature.jpg" img-alt="Image"
+                    img-top>
                     <b-card-text>
-                        This is a wider card with supporting text below as a natural lead-in to additional content.
-                        This card has even longer content than the first to show that equal height action.
+                        Learn everything you need to know before starting the Paleo Diet plan including it's history,
+                        guidelines and components,
+                        and all of the science behind it.
                     </b-card-text>
-
                 </b-card>
             </b-card-group>
         </div>
-        <v-card>
-
-            <v-container fluid>
-                <v-row dense>
-                    <v-col v-for="card in cards" :key="card.title" :cols="card.flex">
-                        <v-card>
-                            <v-img :src="cards.src" class="white--text align-end" height="200px">
-                                <v-card-title v-text="cards.title"></v-card-title>
-                            </v-img>
-                        </v-card>
-                    </v-col>
-                </v-row>
-            </v-container>
-        </v-card>
 
     </div>
 </template>
@@ -106,10 +93,20 @@
 export default {
     data: () => ({
         cards: [
-            { title: 'Adductors', src: 'https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/adductors.jpg', flex: 6 },
-            { title: 'Biceps', src: 'https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/biceps_0.jpg', flex: 3 },
-            { title: 'Calves', src: 'https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/calves_0.jpg', flex: 3 },
-            { title: 'Chest', src: 'https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/chest_0.jpg', flex: 3 },
+            {
+                title: 'The Clean Eating Diet Plan Guide', src: 'https://cdn.muscleandstrength.com/sites/default/files/clean-eating-guide-feature.jpg', text: " Learn everything you need to know before starting the Clean Eating Diet plan including it's history, guidelines & components, & all of the science behind it."
+            },
+            {
+                title: 'The IIFYM & Flexible Dieting Diet Plan Guide', src: 'https://cdn.muscleandstrength.com/sites/default/files/clean-eating-guide-feature.jpg', text: "Learn everything you need to know before starting the IIFYM Diet plan including it's history, guidelines and components, and all of the science behind it."
+            },
+            {
+                title: 'The Ketogenic & Low Carb Diet Plan Guide', src: 'https://cdn.muscleandstrength.com/sites/default/files/keto-feature_0.jpg', text: "Learn everything you need to know before starting the Keto Diet plan including it's history, guidelines and components, and all of the science behind it."
+            },
+            { title: 'The Intermittent Fasting Diet Plan Guide', src: 'https://cdn.muscleandstrength.com/sites/default/files/keto-feature_0.jpg', text: "Learn everything you need to know before starting the Carb Cycling Diet plan including it's history, guidelines & components, & all the science behind it." },
+            { title: 'The Carb Cycling Diet Plan Guide', src: 'https://cdn.muscleandstrength.com/sites/default/files/carb-cycling-feature.jpg', text: "Learn everything you need to know before starting the Carb Cycling Diet plan including it's history, guidelines & components, & all the science behind it." },
+            {
+                title: 'The Paleolithic (Paleo) Diet Plan Guide', src: 'https://cdn.muscleandstrength.com/sites/default/files/paleo-feature.jpg', text: "Learn everything you need to know before starting the Paleo Diet plan including it's history, guidelines and components, and all of the science behind it."
+            },
         ],
     }),
 }
@@ -139,65 +136,7 @@ span {
     margin: 40px;
 }
 
-.about-left {
-    position: relative;
-}
-
-.media {
-    display: flex;
-    align-items: flex-start;
-}
-
-.about-left-text {
-    background-color: #f30a46;
-    width: 45%;
-    padding: 80px 58px;
-    text-transform: uppercase;
-    -webkit-transform: translateY(12%);
-    -ms-transform: translateY(12%);
-    transform: translateY(12%);
-}
-
-.about-left-img {
-    width: 55%;
-}
-
-.about-left-img img {
-    width: 100%;
-}
-
-.about-right-text {
-    padding: 100px 0 0;
-}
-
-.about-right-text h3 {
-    font-size: 30px;
-    line-height: 40px;
-    color: #f30a46;
-    font-weight: 500;
-    padding-bottom: 10px;
-}
-
-.about-right-text p {
-    text-align: justify;
-}
-
-@media (max-width: 767px) {
-    .media {
-        display: block;
-    }
-
-    .about-left-text {
-        width: 100%;
-        padding: 40px 10px;
-    }
-
-    .about-left-img {
-        width: 100%;
-    }
-
-    .about-right-text {
-        padding: 30px 0 0;
-    }
+.paragraph-text {
+    margin-top: 40px;
 }
 </style>
